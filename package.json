@@ -1,0 +1,23 @@
+{
+  "name": "jsxbeautifier",
+  "version": "1.0.0",
+  "description": "Beautifier for React or React Native code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishek4794/jsxbeautifier.git"
+  },
+  "author": "Abhishek Marathe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishek4794/jsxbeautifier/issues"
+  },
+  "homepage": "https://github.com/abhishek4794/jsxbeautifier#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.4"
+  }
+}
