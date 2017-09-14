@@ -6,18 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords":[
+	"jsx",
+	"jsx beautifier",
+	"react beautifier"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abhishek4794/jsxbeautifier.git"
   },
-  "author": "Abhishek Marathe",
+  "author": "Abhishek Marathe <marathe.abhishek.12cce5014@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/abhishek4794/jsxbeautifier/issues"
   },
   "homepage": "https://github.com/abhishek4794/jsxbeautifier#readme",
   "dependencies": {
+    "command-line-args": "^4.0.7",
     "fs": "0.0.1-security",
-    "lodash": "^4.17.4"
+    "lodash": "4.17.4"
   }
 }
