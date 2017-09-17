@@ -16,10 +16,10 @@ $ npm -g install jsxbeautifier
 $ jsxbeautifier foo.js
 ```
 
-You can also use `js-beautify` as a `node` library (install locally, the `npm` default):
+You can also use `jsxbeautifier` as a `node` library (install locally, the `npm` default):
 
 ```bash
-$ npm install js-beautify
+$ npm install jsxbeautifier
 ```
 
 
