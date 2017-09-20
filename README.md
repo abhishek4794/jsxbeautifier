@@ -13,7 +13,7 @@ You can install the NPM package `jsxbeautifier`. When installed globally, it pro
 
 ```bash
 $ npm -g install jsxbeautifier
-$ jsxbeautifier foo.js
+$ jsxbeautifier -r -f foo.js
 ```
 
 You can also use `jsxbeautifier` as a `node` library (install locally, the `npm` default):
@@ -30,6 +30,6 @@ These are the command-line flags for JS scripts:
 
 ```text
 CLI Options:
-  -f, --file       Input file(s) (Pass '-' for stdin)
-  -r, --replace    Write output in-place, replacing input
+  -f    Input file(s) (Pass '-' for stdin)
+  -r    Write output in-place, replacing input
 ```
