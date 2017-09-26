@@ -1,6 +1,6 @@
 {
   "name": "jsxbeautifier",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Beautifier for React or React Native code.",
   "main": "index.js",
   "scripts": {
