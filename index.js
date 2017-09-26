@@ -46,7 +46,6 @@ function start() {
 	}else{
 		path = options.filename + "-beutify"
 	}    
-	
 	fs.writeFile(path, finalString, 'utf8', (err) => {
             if (err) throw err;
             console.log('It\'s saved!');
@@ -56,6 +55,8 @@ function start() {
 }
 
 function handleSentence(string, i) {
+	
+    string = string.trim();
 
     var concatenated = false
 
