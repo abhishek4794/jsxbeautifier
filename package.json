@@ -1,5 +1,6 @@
 {
   "name": "jsxbeautifier",
+  "preferGlobal": true,
   "version": "1.0.4",
   "description": "Beautifier for React or React Native code.",
   "main": "index.js",
@@ -9,11 +10,16 @@
   "keywords":[
 	"jsx",
 	"jsx beautifier",
-	"react beautifier"
+	"beautifier",
+	"react beautifier",
+	"react native beautifier"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abhishek4794/jsxbeautifier.git"
+  },
+  "bin":{
+    "jsxbeautifier":"./bin/jsxbeutifier"	
   },
   "author": "Abhishek Marathe <marathe.abhishek.12cce5014@gmail.com>",
   "license": "ISC",
